@@ -1,5 +1,4 @@
-import { Card, Col, Container, Row } from "react-bootstrap"
-import { FaPlay } from "react-icons/fa"
+import { Col, Container, Row } from "react-bootstrap"
 import classes from './TermsAndConditions.module.css'
 
 

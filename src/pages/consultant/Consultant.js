@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap"
 import './Consultant.css'
 import ActionButton from "../../UI/action-button/ActionButton"
-import { FaHeart, FaPlay, FaRegHeart, FaShare, FaShareAlt, FaSlideshare ,FaClock, FaCommentDollar, FaDollarSign } from "react-icons/fa"
+import { FaRegHeart, FaShareAlt ,FaClock, FaDollarSign } from "react-icons/fa"
 import CourseFeedback from "../../components/course-feedback/CourseFeedback"
 import Comments from "../course-details/components/comments/Comments"
 import Language from "../../UI/language/Language"

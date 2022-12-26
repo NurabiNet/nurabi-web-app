@@ -1,14 +1,8 @@
-import { Fragment } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import { FaClock, FaDollarSign } from 'react-icons/fa';
-import CourseItem from '../../components/courses/CourseItem';
-import ConsultantSessionCard from '../../UI/consultant-session-card/ConsultantSessionCard';
 import InitiativeCard from '../../UI/initiative-card/InitiativeCard';
-import MainButton from '../../UI/main-button/MainButton';
 import UserInitiativeCard from '../../UI/user-initiative-card/UserInitiativeCard';
-import UserTrackingSystemCard from '../../UI/user-tracking-system-card/UserTrackingSystemCard';
 import './UserInitiatives.css'
 
 

@@ -65,8 +65,8 @@ import CourseContentObj from './CourseContentObj';
                                                 <div className="section-item d-flex justify-content-between" key={indexs} onClick={handleClick}>
                                                     <div className="d-flex">
                                                         <div className="icon-type">
-                                                            { lesson.type == 'video' && <FaPlay className='icon' /> }
-                                                            { lesson.type == 'quiz' && <FaEdit className='icon' /> }
+                                                            { lesson.type === 'video' && <FaPlay className='icon' /> }
+                                                            { lesson.type === 'quiz' && <FaEdit className='icon' /> }
                                                             
                                                         </div>
 
@@ -76,8 +76,8 @@ import CourseContentObj from './CourseContentObj';
                                                             </p>
 
                                                             <p className="lecture-type">
-                                                                { lesson.type == 'video' &&  `Video , ${lesson.duration} Mins` }
-                                                                { lesson.type == 'quiz' &&  `Quiz , ${lesson.quizQuestionNum} Questions` }
+                                                                { lesson.type === 'video' &&  `Video , ${lesson.duration} Mins` }
+                                                                { lesson.type === 'quiz' &&  `Quiz , ${lesson.quizQuestionNum} Questions` }
                                                                 
                                                             </p>
                                                         </div>

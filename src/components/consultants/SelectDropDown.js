@@ -17,17 +17,17 @@ const SelectDropDown = () => {
                 </div>
             
                 
-                <img className="select-box__icon" src="http://cdn.onlinewebfonts.com/svg/img_295694.svg" alt="Arrow Icon" aria-hidden="true"/>
+                <img className="select-box__icon" src="http://cdn.onlinewebfonts.com/svg/img_295694.svg" alt="Arrow Icon" aria-hidden={true}/>
                 
             </div>
 
 
             <ul className="select-box__list">
                 <li>
-                <label className="select-box__option" htmlFor="0" aria-hidden="aria-hidden">Newest</label>
+                <label className="select-box__option" htmlFor="0" >Newest</label>
                 </li>
                 <li>
-                <label className="select-box__option" htmlFor="1" aria-hidden="aria-hidden">Oldest</label>
+                <label className="select-box__option" htmlFor="1" >Oldest</label>
                 </li>
             </ul>
 

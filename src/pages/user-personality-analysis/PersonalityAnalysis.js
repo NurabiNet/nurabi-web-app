@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap"
-import MainButton from "../../UI/main-button/MainButton"
 import PersonalityCard from "../../UI/personality-card/PersonalityCard"
 import PrimaryButton from "../../UI/primary-button/PrimaryButton"
 import TrackingSystemCard from "../../UI/tracking-system-card/TrackingSystemCard"

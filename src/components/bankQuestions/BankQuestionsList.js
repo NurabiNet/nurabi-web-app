@@ -1,7 +1,7 @@
 import './BankQuestionsList.css'
 import { Fragment } from 'react';
 
-import { Col, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import BankQuestionsContent from '../bank-questions-content/BankQuestionsContent';
 const BankQuestionsList = () => {
     return (

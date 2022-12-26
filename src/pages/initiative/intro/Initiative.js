@@ -1,7 +1,6 @@
 import { Card, Col, Container, Row } from "react-bootstrap"
 import { FaPlay } from "react-icons/fa"
 import MainButton from "../../../UI/main-button/MainButton"
-import SecondryButton from "../../../UI/secondry-button/SecondryButton"
 import classes from './Initiative.module.css'
 
 

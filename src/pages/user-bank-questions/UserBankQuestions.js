@@ -1,8 +1,5 @@
 import { Container, Row , Col } from "react-bootstrap"
 import BankQuestionsList from "../../components/bankQuestions/BankQuestionsList"
-import Header from "../../components/bankQuestions/Header"
-import MainButton from "../../UI/main-button/MainButton"
-import classes from './UserBankQuestions.module.css'
 import { useHistory } from "react-router-dom";
 const UserBankQuestions = () => {
 

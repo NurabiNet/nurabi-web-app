@@ -1,7 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import classes from './UserInitiativeProgressCard.module.css'
 import './UserInitiativeProgressCard.css'
-import { Col, Row } from 'react-bootstrap';
 function UserInitiativeProgressCard(props) { 
   return (
     <Card className="text-center main-card" >

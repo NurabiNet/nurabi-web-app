@@ -1,6 +1,5 @@
 import { Col, ProgressBar, Row } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
-import { FaQuestion } from 'react-icons/fa';
 import StatusButton from '../status-button/StatusButton';
 import classes from  './PersonalityCard.module.css'
 function PersonalityCard(props) {

@@ -3,10 +3,9 @@ import './Lesson.css'
 import CourseContent from "../../components/course-content/CourseContent"
 import LessonVideo from "./components/lesson-video/LessonVideo"
 import LessonTabs from "./components/lesson-tabs/LessonTabs"
-import SourceViews from "../../UI/source-views/SourceViews"
 import MainButton from "../../UI/main-button/MainButton"
 import ActionButton from "../../UI/action-button/ActionButton"
-import { FaHeart, FaPlay, FaRegHeart, FaShare, FaShareAlt, FaSlideshare } from "react-icons/fa"
+import { FaRegHeart, FaShareAlt } from "react-icons/fa"
 
 
 const Lesson = () => {

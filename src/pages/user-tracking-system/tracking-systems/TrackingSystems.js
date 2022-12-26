@@ -1,7 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap"
-import ConsultantCard from "../../../UI/consultant-card/ConsultantCard"
-import CourseCard from "../../../UI/CourseCard"
-import PersonalityAnalysisCard from "../../../UI/personality-analysis-card/PersonalityAnalysisCard"
 import TrackingSystemCard from "../../../UI/tracking-system-card/TrackingSystemCard"
 const TrackingSystems = () => {
     return (

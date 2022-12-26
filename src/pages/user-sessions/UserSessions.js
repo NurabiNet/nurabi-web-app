@@ -1,10 +1,7 @@
-import { Fragment } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import { FaClock, FaDollarSign } from 'react-icons/fa';
 import ConsultantSessionCard from '../../UI/consultant-session-card/ConsultantSessionCard';
-import MainButton from '../../UI/main-button/MainButton';
 import './UserSessions.css'
 
 

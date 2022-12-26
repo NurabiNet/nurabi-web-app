@@ -1,7 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import classes from './TrackingSystemCard.module.css'
 import './TrackingSystemCard.css'
-import { Col, Row } from 'react-bootstrap';
 function TrackingSystemCard(props) { 
   return (
     <Card className="text-center main-card" >

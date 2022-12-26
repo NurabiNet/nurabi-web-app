@@ -1,5 +1,4 @@
 import Card from 'react-bootstrap/Card';
-import classes from './PersonalityAnalysisCard.module.css'
 import './PersonalityAnalysisCard.css'
 import Chart from 'react-apexcharts'
 import StatusButton from '../status-button/StatusButton';

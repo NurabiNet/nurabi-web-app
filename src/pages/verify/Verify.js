@@ -31,7 +31,7 @@ const Verify = () => {
                           </div>
                           <div className="col-12 text-center">
                               <p className="mb-0 mt-3 send-code">
-                                  <a href="#" className={`fontWeight-bold  ${classes.SendCode}`}>Send Code Again</a>
+                                  <a href="/" className={`fontWeight-bold  ${classes.SendCode}`}>Send Code Again</a>
                               </p>
                           </div>
                         </div>

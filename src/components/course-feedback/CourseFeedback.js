@@ -1,5 +1,5 @@
 
-import { Col, Container, ProgressBar, Row } from 'react-bootstrap'
+import { Col, ProgressBar, Row } from 'react-bootstrap'
 import RateStars from '../../UI/rate-stars/RateStars'
 import './CourseFeedback.css'
 
