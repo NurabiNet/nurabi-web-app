@@ -1,7 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap"
 import Form from 'react-bootstrap/Form';
-import { FaArrowLeft } from "react-icons/fa"
-import { NavLink } from "react-router-dom"
 import MainButton from "../../UI/main-button/MainButton"
 import classes from './RequestConsultation.module.css'
 

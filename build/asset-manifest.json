@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe8b502d.chunk.css",
+    "main.js": "/static/js/main.debc5b41.chunk.js",
+    "main.js.map": "/static/js/main.debc5b41.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.481e91ee.js",
+    "runtime-main.js.map": "/static/js/runtime-main.481e91ee.js.map",
+    "static/css/2.42d51ddf.chunk.css": "/static/css/2.42d51ddf.chunk.css",
+    "static/js/2.05c51c96.chunk.js": "/static/js/2.05c51c96.chunk.js",
+    "static/js/2.05c51c96.chunk.js.map": "/static/js/2.05c51c96.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.42d51ddf.chunk.css.map": "/static/css/2.42d51ddf.chunk.css.map",
+    "static/css/main.fe8b502d.chunk.css.map": "/static/css/main.fe8b502d.chunk.css.map",
+    "static/js/2.05c51c96.chunk.js.LICENSE.txt": "/static/js/2.05c51c96.chunk.js.LICENSE.txt",
+    "static/media/5218235.a7b95da2.jpg": "/static/media/5218235.a7b95da2.jpg",
+    "static/media/certificate.06cc6baf.png": "/static/media/certificate.06cc6baf.png",
+    "static/media/consultant.d548b11e.jpg": "/static/media/consultant.d548b11e.jpg",
+    "static/media/course-img.4e5693c7.png": "/static/media/course-img.4e5693c7.png",
+    "static/media/course.520f9f39.png": "/static/media/course.520f9f39.png",
+    "static/media/header.7bdc74f1.png": "/static/media/header.7bdc74f1.png",
+    "static/media/poster.6bc9b92a.jpg": "/static/media/poster.6bc9b92a.jpg",
+    "static/media/profile.99bf1b65.png": "/static/media/profile.99bf1b65.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.481e91ee.js",
+    "static/css/2.42d51ddf.chunk.css",
+    "static/js/2.05c51c96.chunk.js",
+    "static/css/main.fe8b502d.chunk.css",
+    "static/js/main.debc5b41.chunk.js"
+  ]
+}
