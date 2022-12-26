@@ -1,0 +1,12 @@
+.PersonalityResults{
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    padding: 15px 30px;
+    margin-top: 3rem;
+}
+.ResultTitle{
+    padding: 25px 15px 5px;
+    font-weight: 600;
+    color: #434343;
+    font-size: 22px;
+}

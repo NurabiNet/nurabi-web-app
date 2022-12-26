@@ -1,0 +1,19 @@
+.consultant-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    border: none;
+    cursor: pointer;
+}
+.consultant-card-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #7b7b7b;
+}
+.consultant-provider{
+    color: #08cad7;
+    font-weight: bold;
+}
+.consultant-rate .rate-stars{
+    margin: 0;
+}

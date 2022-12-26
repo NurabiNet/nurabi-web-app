@@ -1,0 +1,27 @@
+.filters-title,
+.filter-type-title{
+    font-weight: bold;
+    font-size: 16px;
+    color: #7b7b7b;;
+}
+.filter-content{
+    border-bottom: 2px solid #eee;
+    padding: 20px 0;
+}
+
+.filter-content:last-child{
+    border-bottom: none
+}
+
+.form-check label{
+    color: #a1a1a1 !important;
+    font-weight: 500;
+}
+.form-check-input.is-valid:checked, .was-validated .form-check-input:valid:checked{
+    background-color: #fb5456 !important;
+    border-color: #fb5456 !important;
+}
+
+.form-check-input:active {
+    filter: brightness(100%) !important;
+  }

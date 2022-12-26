@@ -1,0 +1,14 @@
+.CardButton{
+    text-align: center;
+    width: 100%;
+    outline: none;
+    border: 1px solid #07b2bd !important;
+    background: #fff !important;
+    color: #07b2bd !important;
+    border-radius: 15px;
+    padding: 15px 50px;
+}
+.CardButton:hover,
+.CardButton:active{
+    background: #fff !important;
+}

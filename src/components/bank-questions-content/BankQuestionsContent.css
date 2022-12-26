@@ -1,0 +1,82 @@
+.course-title,
+.course-header h5{
+    font-weight: bold;
+    color: #6e6e6e;
+    
+}
+.course-header h5{
+    margin-bottom: 2px;
+}
+.course-header p{
+    color: #b3b3b3;
+    font-weight: 500;
+}
+.course-description{
+    color: #b3b3b3;
+    font-weight: 500;
+}
+.course-provider{
+    color: #08cad7;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.course-content-sections{
+    padding-right: 30px;
+}
+
+.section-container .collapse{
+    padding: 10px 20px 10px 0;
+}
+
+.section-item-collapse{
+    margin: 15px 0 15px 0px;
+    padding: 15px;
+    border-radius: 9px;
+    box-shadow: 0 8px 24px 0 rgba(183, 183, 183, 0.17);
+    background-color: #fff;
+}
+
+.section-title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-item {
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.section-item p{
+    margin-bottom: 0;
+}
+.icon-type{
+    padding: 10px 15px 15px;
+    margin-right: 10px;
+    border-radius: 7px;
+    background-color: #fee;
+    color: #fb5456;
+}
+.lock-icon{
+    border-radius: 7px;
+    color: #fb5456;
+    font-size: 1.2rem;
+}
+
+.lecture-type{
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.bankquestionItem .collaped-item svg{
+    border-radius: 5px;
+    background-color: #fb5456;
+    color: #fff;
+    padding: 5px;
+    font-size: 25px;
+}
+.bankQuestionRates{
+    color: #07b2bd;
+    font-size: 20px;
+}

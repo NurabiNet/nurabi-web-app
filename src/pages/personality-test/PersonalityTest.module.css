@@ -1,0 +1,10 @@
+.personalityTest{
+    padding-top: 10rem;
+}
+.PersonalityTestDesc{
+    max-width: 500px;
+    margin: auto;
+}
+.QuestionNumber{
+    font-weight: bold;
+}

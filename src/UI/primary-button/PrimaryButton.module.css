@@ -1,0 +1,9 @@
+.Button{
+    text-align: center;
+    background-color: #fb5456;
+    outline: none;
+    border: none !important;
+    border-radius: 15px;
+    color: #434343;
+    padding: .5rem 2rem;
+}

@@ -1,0 +1,26 @@
+.PageTitle{
+    font-weight: bold;
+    color: #6e6e6e;
+    padding: 5rem 0 2rem;
+}
+.UserSessionTabs.nav-tabs{
+    border: none;
+}
+.UserSessionTabs.nav-tabs .nav-link:focus,.UserSessionTabs .nav-tabs .nav-link:hover{
+    border-color: #fff
+}
+.UserSessionTabs.nav-tabs .nav-link{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    font-weight: 600;
+    color: #7b7b7b;
+    font-size: 1.2rem;
+
+}
+.UserSessionTabs.nav-tabs .nav-link.active{
+    color: #fb5456;
+    border:none;
+    border-bottom: 2px solid #fb5456;
+    font-weight: 600;
+
+}

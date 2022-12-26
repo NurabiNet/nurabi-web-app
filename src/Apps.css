@@ -1,0 +1,35 @@
+section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.main-title{
+    color: #08cad7;
+    font-weight: 600;
+}
+.main-black-title{
+    font-weight: bold;
+    color: #6e6e6e;
+    margin-bottom: 15px;
+}
+.main-margin-top{
+    margin-top: 5rem;
+}
+.text-font-muted{
+    color: #b3b3b3;
+    font-weight: 500;
+}
+.main-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: none;
+}
+.bg-Progress-Success{
+    background-color: #07b2bd !important;
+}
+.bg-Progress-Failed{
+    background-color: #fb5456 !important;
+}
+.bg-Progress-Improve{
+    background-color: #ffb448 !important;
+}

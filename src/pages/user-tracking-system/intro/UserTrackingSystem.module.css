@@ -1,0 +1,26 @@
+.TrackingDetails{
+    padding: 0 2rem 0 0;
+}
+.ActionButtons{
+    display: flex;   
+}
+.SecondBottom{
+    margin-left: 1rem;
+}
+.mainParagraph{
+    color: #6e6e6e;
+    font-size: 1.1rem;
+}
+.TrackVideo{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: none;
+}
+.TrackImgContainer,
+.CardImgContainer{
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    border-radius: 10px;
+}

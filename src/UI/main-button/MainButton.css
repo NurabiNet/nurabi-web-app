@@ -1,0 +1,13 @@
+.card-button{
+    text-align: center;
+    width: 100%;
+    background-color: #fb5456;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 50px;
+}
+.card-button:hover,
+.card-button:active{
+    background-color: #fb5456 !important; 
+}

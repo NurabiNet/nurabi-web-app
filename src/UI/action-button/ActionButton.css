@@ -1,0 +1,12 @@
+.actionButtonContainer{
+    padding: 5px 15px 10px;
+    margin-right: 10px;
+    border-radius: 7px;
+    background-color: #fee;
+    color: #fb5456;
+}
+
+.actionButton{
+    color: #fb5456;
+    font-size: 1.5rem;
+}

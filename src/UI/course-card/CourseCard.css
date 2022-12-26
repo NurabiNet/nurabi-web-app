@@ -1,0 +1,15 @@
+.course-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    border: none;
+}
+.course-card-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #7b7b7b;
+}
+.course-provider{
+    color: #08cad7;
+    font-weight: bold;
+}

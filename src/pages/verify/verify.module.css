@@ -1,0 +1,37 @@
+.HeaderTitle{
+    color: #08cad7;
+    font-weight: 600;
+}
+.HeaderPargraph{
+    color: #b3b3b3;
+    font-weight: 600;
+}
+.FormContainer{
+    padding: 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.LoginBackground{
+    width:100%
+}
+
+.FormPadding{
+    padding: 10rem;
+}
+
+.VerifyInput{
+    width: 58px;
+    height: 48px;
+    padding: 14px 25px;
+    margin: 0px 5px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    border: none;
+    color: #848484;
+}
+
+.SendCode{
+    color: #08cad7;
+    text-decoration: underline !important;
+}

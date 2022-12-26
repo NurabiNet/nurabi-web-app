@@ -1,0 +1,13 @@
+.BankQuestionForm{
+    padding-top: 5rem;
+}
+.BankQuestionFormDesc{
+    max-width: 500px;
+    margin: auto;
+}
+.QuestionTextarea{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: solid 1px #efefef;
+    background-color: #fafafa;
+}

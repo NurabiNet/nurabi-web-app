@@ -1,0 +1,32 @@
+.initiative-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    border: none;
+    cursor: pointer;
+}
+.initiative-card-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #7b7b7b;
+}
+.initiative-provider{
+    color: #08cad7;
+    font-weight: bold;
+}
+.initiative-rate .rate-stars{
+    margin: 0;
+}
+.initiative-provider{
+    color: #08cad7;
+    font-weight: bold;
+}
+.Price{
+    color: #fb5456;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.Date{
+    border-top: 1px solid rgb(238, 238, 238);
+    padding-top: 15px;
+}

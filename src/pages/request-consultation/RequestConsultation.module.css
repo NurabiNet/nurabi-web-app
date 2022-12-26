@@ -1,0 +1,98 @@
+.HeaderTitle{
+    color: #08cad7;
+    font-weight: 600;
+}
+.HeaderPargraph{
+    color: #b3b3b3;
+    font-weight: 600;
+}
+.FormContainer{
+    padding: 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.LoginBackground{
+    width:100%
+}
+
+.FormPadding{
+    padding: 4rem 10rem;
+}
+
+.FormInput,.TextArea{
+    padding: 14px 25px;
+    margin: 0px 5px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    border: none;
+    color: #848484;
+}
+.FormInput{
+    height: 48px;
+}
+
+.forgetPassword{
+    text-align: right;
+}
+.CreateOne{
+    margin-left: 5px;
+    color: #fb5456 !important;
+}
+
+
+.CheckBoxesContainer [type="radio"]:checked,
+.CheckBoxesContainer [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.CheckBoxesContainer [type="radio"]:checked + label,
+.CheckBoxesContainer [type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+.CheckBoxesContainer [type="radio"]:checked + label:before,
+.CheckBoxesContainer [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+.CheckBoxesContainer [type="radio"]:checked + label:after,
+.CheckBoxesContainer [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #fb5456;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.CheckBoxesContainer [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.CheckBoxesContainer [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.CheckBox{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+.HeaderTitle{
+    color: #08cad7;
+    font-weight: 600;
+}
+.FormContainer{
+    padding: 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.Background{
+    width:100%
+}
+
+.FormPadding{
+    padding: 4rem 10rem;
+}
+
+.TextArea{
+    padding: 14px 25px;
+    margin: 0px 5px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    border: none;
+    color: #848484;
+}
+.ValidationMessage{
+    font-size: 0.8rem;
+    text-align: right;
+}
+.Contacts{
+    margin-top: 4rem;
+}
+.Contacts h6{
+    margin-top: 30px;
+    font-weight: 600;
+}
+.Contacts img{
+    width: 40px;
+    margin: 5px;
+}

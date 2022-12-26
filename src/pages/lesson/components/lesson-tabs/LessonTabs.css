@@ -1,0 +1,33 @@
+.lesson-views-container{
+    position: absolute;
+    right: 0;
+    top: 2.5rem;
+}
+.lesson-tabs.nav-tabs{
+    border: none;
+}
+.lesson-tabs.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border-color: #fff
+}
+.lesson-tabs.nav-tabs .nav-link{
+    font-weight: 600;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    color: #7b7b7b;
+    font-size: 1.2rem;
+}
+.lesson-tabs.nav-tabs .nav-link.active{
+    color: #fb5456;
+    border:none;
+    border-bottom: 2px solid #fb5456;
+    font-weight: 600;
+
+}
+.aboutCourse{
+    color: #b3b3b3;
+    font-weight: 500;
+}
+.lessonTabsContainer{
+    padding: 30px 0px 10px 40px;
+    position: relative;
+}

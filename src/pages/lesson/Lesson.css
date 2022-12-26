@@ -1,0 +1,18 @@
+.lessonContainer{
+    padding: 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+.lesson-top-header{
+    padding: 20px;
+}
+.lessonTitle h4{
+    font-weight: bold;
+    color: #6e6e6e;
+}
+.leave-feedback{
+    margin-right: 10px;
+}
+.leave-feedback button{
+    padding: 0px 20px;
+}

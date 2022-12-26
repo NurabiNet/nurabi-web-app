@@ -1,0 +1,35 @@
+.InitiativeItem{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.InitiativeImage{
+    padding: 0 !important;
+}
+.InitiativeImage img{
+    border-radius: 10px;
+    max-width: 240px;
+}
+.InitiativeDetails{
+    padding: 30px 30px !important;
+}
+
+.InitiativeDetails h4{
+    font-weight: bold;
+    font-size:18px;
+    color: #7b7b7b;
+}
+
+.InitiativeDetails > p{
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: .9rem;
+}
+.InitiativeDetails .InitiativeProvider{
+    color: #08cad7;
+    font-weight: bold;
+}
+.ArrowDate{
+    margin: 0 35px;
+}

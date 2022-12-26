@@ -1,0 +1,19 @@
+.section-title{
+    font-weight: 600;
+}
+.progress-bar{
+    padding: 10px 0px;
+}
+.progress {
+    --bs-progress-bar-bg: #fb5456;
+}
+.courseRate{
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #7b7b7b;
+
+}
+.starts-percentage{
+    font-weight: bold;
+    color: #7b7b7b;
+}

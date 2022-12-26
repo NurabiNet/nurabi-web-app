@@ -1,0 +1,23 @@
+.header{
+    height: 220px;
+    background-color: #f8f8f8;
+    margin-bottom: 3rem;
+}
+
+.breadcrumb{
+    flex-direction: column;
+}
+
+.breadcrumb-header{
+    color:#07b2bd;
+    font-weight: 600;
+}
+
+.breadcrumb-details span{
+    color: #a1a1a1;
+    font-weight: 600;
+}
+
+.breadcrumb-details span.active-page {
+    color:#08cad7;
+}
