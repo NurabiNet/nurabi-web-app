@@ -23,9 +23,8 @@ function UserNavigationHeader() {
                     <li><NavLink to="/user/initiatives" activeClassName={classes.active} className="m-2" >My Initiatives</NavLink></li>
                     <li><NavLink to="/user/personality-analysis" activeClassName={classes.active} className="m-2" >Personality Analysis</NavLink></li>
 
-                    <li><NavLink to="/my/bankQuestions" activeClassName={classes.active} className="m-2" >Bank Questions</NavLink></li>
+                    <li><NavLink to="/my/bankQuestions" activeClassName={classes.active} className="m-2" >My Bank Questions</NavLink></li>
                     <li><NavLink to="/user/sessions" activeClassName={classes.active} className="m-2" >My Sessions</NavLink></li>
-                    <li><NavLink to="/consultants/1" activeClassName={classes.active} className="m-2" >Consultant Details</NavLink></li>
                     <li><NavLink to="/show/user/profile" activeClassName={classes.active} className="m-2" >Profile</NavLink></li>
                     
                     

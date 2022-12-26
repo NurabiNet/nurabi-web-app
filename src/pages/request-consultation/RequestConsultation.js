@@ -105,7 +105,7 @@ const RequestConsultation = () => {
 
                           
                           <div className="mt-4 mb-2">
-                            <MainButton text="Login" />
+                            <MainButton text="Send" />
                           </div>
 
                           

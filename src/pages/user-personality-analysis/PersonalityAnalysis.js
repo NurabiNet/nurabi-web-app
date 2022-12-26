@@ -25,7 +25,7 @@ const PersonalityAnalysis = () => {
                         <TrackingSystemCard>
                             <div className="mt-4" onClick={handleClick}>
                                 <PrimaryButton
-                                    text="Today Advice"
+                                    text="Result Details"
                                     background="#fed21a"
                                     color="#434343"
                                     
@@ -81,7 +81,7 @@ const PersonalityAnalysis = () => {
                         <TrackingSystemCard>
                             <div className="mt-4">
                                 <PrimaryButton
-                                    text="Today Advice"
+                                    text="Result Details"
                                     background="#fed21a"
                                     color="#434343"
                                 />
@@ -136,7 +136,7 @@ const PersonalityAnalysis = () => {
                         <TrackingSystemCard>
                             <div className="mt-4">
                                 <PrimaryButton
-                                    text="Today Advice"
+                                    text="Result Details"
                                     background="#fed21a"
                                     color="#434343"
                                 />

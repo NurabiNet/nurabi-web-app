@@ -45,7 +45,33 @@ function App() {
       <UserNavigationHeader />
 
       <Switch>
-      
+
+        
+
+        <Route path="/login">
+          <Login />
+        </Route>
+
+        <Route path="/register">
+          <Register />
+        </Route>
+
+        <Route path="/forget-password">
+          <ForgetPassword />
+        </Route>
+        
+        <Route path="/verify">
+          <Verify />
+        </Route>
+
+        <Route path="/contact-us" exact>
+          <ContactUs />
+        </Route>
+
+        <Route path="/terms-and-conditions" exact>
+          <TermsAndConditions />
+        </Route>
+
         <Route path="/" exact>
           <Redirect to="/courses" />
         </Route>
@@ -74,21 +100,7 @@ function App() {
           <Consultant />
         </Route>
 
-        <Route path="/register">
-          <Register />
-        </Route>
-
-        <Route path="/login">
-          <Login />
-        </Route>
         
-        <Route path="/verify">
-          <Verify />
-        </Route>
-
-        <Route path="/forget-password">
-          <ForgetPassword />
-        </Route>
 
         <Route path="/user/dashboard" exact>
           <UserDashboard />
@@ -159,13 +171,7 @@ function App() {
           <ShowUserProfile />
         </Route>
 
-        <Route path="/contact-us" exact>
-          <ContactUs />
-        </Route>
-
-        <Route path="/terms-and-conditions" exact>
-          <TermsAndConditions />
-        </Route>
+        
 
         <Route path="/cart" exact>
           <ShoppingCart />
