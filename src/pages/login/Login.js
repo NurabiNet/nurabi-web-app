@@ -28,7 +28,7 @@ const Login = () => {
                               <input type="password" className={`form-control m-0 ${classes.VerifyInput}`} placeholder="**********"  required="" />
                               <p className={classes.forgetPassword}>
                               <NavLink
-                              to="/verify"
+                              to="/forget-password"
                               activeClassName={classes.active}
                               className="mr-auto"
                               style={{ 'color': '#08cad7'}}

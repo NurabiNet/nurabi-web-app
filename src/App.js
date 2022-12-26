@@ -33,6 +33,7 @@ import RequestConsultation from './pages/request-consultation/RequestConsultatio
 import ShowUserProfile from './pages/show-user-profile/ShowUserProfile';
 import ContactUs from './pages/contact-us/ContactUs';
 import TermsAndConditions from './pages/terms-and-conditions/TermsAndConditions';
+import ShoppingCart from './pages/shopping-cart/ShoppingCart';
 
 
 
@@ -93,11 +94,11 @@ function App() {
           <UserDashboard />
         </Route>
 
-        <Route path="/user/tracking-system" exact>
+        <Route path="/user/tracking-systems" exact>
           <TrackingSystems />
         </Route>
 
-        <Route path="/user/tracking-systems" exact>
+        <Route path="/user/tracking-system" exact>
           <UserTrackingSystems />
         </Route>
 
@@ -164,6 +165,10 @@ function App() {
 
         <Route path="/terms-and-conditions" exact>
           <TermsAndConditions />
+        </Route>
+
+        <Route path="/cart" exact>
+          <ShoppingCart />
         </Route>
         
       </Switch>

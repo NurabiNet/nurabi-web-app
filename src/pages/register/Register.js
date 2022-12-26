@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import { FaArrowLeft } from "react-icons/fa"
+import { NavLink } from "react-router-dom"
 import MainButton from "../../UI/main-button/MainButton"
 import classes from './register.module.css'
 
@@ -44,7 +45,17 @@ const Register = () => {
                           <div className="mt-4 mb-2">
                             <MainButton text="Register" />
                           </div>
+
+                          <div className="col-12 text-center">
+                            <p className="mb-0 mt-3">
+                                <NavLink to="/contact-us" className={`text-primary font-weight-bold`} style={ {'textDecoration' : 'none'} }> Contact Us</NavLink>&nbsp;&nbsp;
+                                <NavLink to="/terms-and-conditions" className={`text-primary font-weight-bold`} style={ {'textDecoration' : 'none'} }> Terms And Conditions</NavLink>
+                            </p>
                         </div>
+
+                        </div>
+
+                        
                     </Col>
 
                     <Col xs={6}  >

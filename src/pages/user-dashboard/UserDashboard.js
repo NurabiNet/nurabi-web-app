@@ -3,6 +3,7 @@ import ConsultantCard from "../../UI/consultant-card/ConsultantCard"
 import CourseCard from "../../UI/CourseCard"
 import PersonalityAnalysisCard from "../../UI/personality-analysis-card/PersonalityAnalysisCard"
 import TrackingSystemCard from "../../UI/tracking-system-card/TrackingSystemCard"
+import UserTrackingSystemCard from "../../UI/user-tracking-system-card/UserTrackingSystemCard"
 const UserDashboard = () => {
     return (
         <Container>
@@ -37,16 +38,16 @@ const UserDashboard = () => {
                 </div>
                 <Row>
                     <Col md={3}>
-                        <TrackingSystemCard />
+                        <UserTrackingSystemCard />
                     </Col>
                     <Col md={3}>
-                        <TrackingSystemCard />
+                        <UserTrackingSystemCard />
                     </Col>
                     <Col md={3}>
-                        <TrackingSystemCard />
+                        <UserTrackingSystemCard />
                     </Col>
                     <Col md={3}>
-                        <TrackingSystemCard />
+                        <UserTrackingSystemCard />
                     </Col>
                     
                 </Row>

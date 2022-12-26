@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import { FaArrowLeft } from "react-icons/fa"
+import { NavLink } from "react-router-dom"
 import MainButton from "../../UI/main-button/MainButton"
 import classes from './verify.module.css'
 
@@ -26,7 +27,7 @@ const Verify = () => {
                               <input type="text" className={`form-control m-0 ${classes.VerifyInput}`} placeholder="-" name="verify-5" required="" />
                           </div>
                           <div className="mt-4 mb-2">
-                            <MainButton text="Verify" />
+                            <NavLink to="/" className="m-2" ><MainButton text="Verify" /></NavLink>
                           </div>
                           <div className="col-12 text-center">
                               <p className="mb-0 mt-3 send-code">
@@ -38,6 +39,7 @@ const Verify = () => {
 
                     <Col xs={6}  >
                       <img src="/login.png" alt="img" className={classes.LoginBackground} />
+                      
                     </Col>
 
                 </Row>

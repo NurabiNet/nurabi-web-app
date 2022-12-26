@@ -19,12 +19,14 @@ function UserNavigationHeader() {
                 <ul className="nav-links user-nav-links">
                     <li><NavLink to="/user/dashboard" activeClassName={classes.active} className="m-2" >DashBoard</NavLink></li>
                     <li><NavLink to="/user/courses" activeClassName={classes.active} className="m-2" >My Courses</NavLink></li>
-                    <li><NavLink to="/user/tracking-system" activeClassName={classes.active} className="m-2" >My Tracking System</NavLink></li>
+                    <li><NavLink to="/user/tracking-system" activeClassName={classes.active} className="m-2" >My Tracking Systems</NavLink></li>
+                    <li><NavLink to="/user/initiatives" activeClassName={classes.active} className="m-2" >My Initiatives</NavLink></li>
                     <li><NavLink to="/user/personality-analysis" activeClassName={classes.active} className="m-2" >Personality Analysis</NavLink></li>
 
                     <li><NavLink to="/my/bankQuestions" activeClassName={classes.active} className="m-2" >Bank Questions</NavLink></li>
-                    <li><NavLink to="/consultants" activeClassName={classes.active} className="m-2" >Consultants</NavLink></li>
+                    <li><NavLink to="/user/sessions" activeClassName={classes.active} className="m-2" >My Sessions</NavLink></li>
                     <li><NavLink to="/consultants/1" activeClassName={classes.active} className="m-2" >Consultant Details</NavLink></li>
+                    <li><NavLink to="/show/user/profile" activeClassName={classes.active} className="m-2" >Profile</NavLink></li>
                     
                     
                    

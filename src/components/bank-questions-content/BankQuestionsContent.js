@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Collapse } from "react-bootstrap"
-import { FaEdit, FaEye, FaLock, FaMinus, FaPlay, FaPlus, FaQuestion, FaQuestionCircle, FaRegQuestionCircle , FaArrowUp , FaArrowDown , FaHandHoldingHeart , FaHandPointDown} from 'react-icons/fa';
+import { FaEye, FaRegQuestionCircle , FaArrowUp , FaArrowDown , FaHandHoldingHeart , FaHandPointDown} from 'react-icons/fa';
 import './BankQuestionsContent.css'
 import BankQuestionsContentObj from './BankQuestionsContentObj';
 
@@ -75,40 +75,9 @@ import BankQuestionsContentObj from './BankQuestionsContentObj';
                             </div>
                             <Collapse in={section.collapsed}>
                                 <div id="example-collapse-text" >
-                                    {
-                                        section.lessons.map( (lesson,indexs) => {
-                                            return (
-
-                                                <div className="section-item d-flex justify-content-between" key={indexs}>
-                                                    <div className="d-flex">
-                                                        <div className="icon-type">
-                                                            { lesson.type == 'video' && <FaPlay className='icon' /> }
-                                                            { lesson.type == 'quiz' && <FaEdit className='icon' /> }
-                                                            
-                                                        </div>
-
-                                                        <div>
-                                                            <p className="lecture-title">
-                                                                {lesson.title}
-                                                            </p>
-
-                                                            <p className="lecture-type">
-                                                                { lesson.type == 'video' &&  `Video , ${lesson.duration} Mins` }
-                                                                { lesson.type == 'quiz' &&  `Quiz , ${lesson.quizQuestionNum} Questions` }
-                                                                
-                                                            </p>
-                                                        </div>
-                                                    </div>
-
-                                                    <div>
-                                                        <FaLock className='lock-icon' />
-                                                    </div>
-
-                                                </div> 
-
-                                            )
-                                        } )
-                                    }
+                                    <div className="section-item d-flex justify-content-between">
+                                        <div style={ { 'padding' : '0 2rem' } }>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                                    </div> 
                                                              
                                 </div>
 

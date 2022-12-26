@@ -25,7 +25,8 @@ const ForgetPassword = () => {
 
                           
                           <div className="mt-4 mb-2">
-                            <MainButton text="Confirm" />
+                            <NavLink to="/verify" className="m-2" ><MainButton text="Confirm" /></NavLink>
+                            
                           </div>
                         </div>
                     </Col>

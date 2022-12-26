@@ -1,0 +1,28 @@
+.CartDetails{
+    padding: 0 2rem 0 0;
+}
+.CartItems{
+    color: #6e6e6e;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    
+}
+.ShoppingCartContainer{
+    padding: 0 5rem;
+}
+.CheckoutDetails h6{
+    color: #6a6f73;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.CheckoutDetails > div{
+    margin-bottom: 1rem;
+}
+.CheckoutDetails span{
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 3.2rem;
+    color: #7f7f7f;
+}
