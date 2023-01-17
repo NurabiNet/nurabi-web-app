@@ -34,6 +34,7 @@ import ShowUserProfile from './pages/show-user-profile/ShowUserProfile';
 import ContactUs from './pages/contact-us/ContactUs';
 import TermsAndConditions from './pages/terms-and-conditions/TermsAndConditions';
 import ShoppingCart from './pages/shopping-cart/ShoppingCart';
+import Footer from './components/footer/Footer';
 
 
 
@@ -171,13 +172,13 @@ function App() {
           <ShowUserProfile />
         </Route>
 
-        
-
         <Route path="/cart" exact>
           <ShoppingCart />
         </Route>
         
       </Switch>
+
+      <Footer />
       
     </div>
   );
