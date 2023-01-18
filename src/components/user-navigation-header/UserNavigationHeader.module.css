@@ -7,3 +7,8 @@
     background-color: #07b2bd;
 }
 
+@media (max-width: 699px){
+    .NavBar{
+        display: none;
+    }
+}

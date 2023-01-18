@@ -1,0 +1,21 @@
+.active{
+    color:black
+}
+.MainNavHeaderLink{
+    color: #07b2bd;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.NavBar{
+    background: #fff;
+    height: 100%;
+}
+.Logo{
+    width: 60px;
+    overflow: hidden;
+}
+.Logo img{
+    width: 100%;
+}
