@@ -43,6 +43,9 @@ import NavigationHeaderV2 from './components/navigation-header-v2/NavigationHead
 function App() {
   return (
     <div>
+      <div className='d-none'>
+      <NavigationHeader />
+      </div>
       <NavigationHeaderV2 />
       <UserNavigationHeader />
 

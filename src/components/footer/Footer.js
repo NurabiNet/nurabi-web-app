@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 import './Footer.css'
 
