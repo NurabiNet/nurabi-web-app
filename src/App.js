@@ -35,6 +35,7 @@ import ContactUs from './pages/contact-us/ContactUs';
 import TermsAndConditions from './pages/terms-and-conditions/TermsAndConditions';
 import ShoppingCart from './pages/shopping-cart/ShoppingCart';
 import Footer from './components/footer/Footer';
+import NavigationHeaderV2 from './components/navigation-header-v2/NavigationHeaderV2';
 
 
 
@@ -42,7 +43,7 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <div>
-      <NavigationHeader />
+      <NavigationHeaderV2 />
       <UserNavigationHeader />
 
       <Switch>

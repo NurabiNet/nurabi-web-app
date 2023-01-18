@@ -1,0 +1,24 @@
+#basic-navbar-nav{
+    background: rgb(255, 255, 255);
+}
+#basic-nav-dropdown{
+    font-weight: 500;
+font-size: 20px;
+text-decoration: none;
+padding: 0 10px;
+color: #07b2bd;
+}
+.dropdown-menu.show a{
+    color: #959393;
+    padding-left: 15px;
+}
+@media (min-width: 1400px){
+    .NavContainer{
+    max-width: 1350px;
+    }
+}
+@media (min-width: 699px){
+    .DashboardDropDown{
+        display: none;
+    }
+}
